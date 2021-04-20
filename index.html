@@ -12,10 +12,11 @@
 <body>
    
     <div id="app">
-        <h1 v-bind:class="myMessagge">{{messagge}}</h1>
-       
+        <h1 v-bind:class="myMessage">{{message}}</h1>
+        <h3 v-bind:class="myMessage">{{author}}</h3>
 
         <img v-bind:src="image" alt="">
+        <h3 v-bind:class="myMessage">{{description}}</h3>
     </div>
     <!--js-->
     <script src="./script.js"></script>

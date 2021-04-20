@@ -3,3 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-image: url(./mNAB7K.jpg);
+    background-size: 90%;
+}
+h1,
+h3{
+    margin:10px 20px
+}
